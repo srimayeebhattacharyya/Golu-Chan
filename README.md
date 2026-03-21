@@ -128,7 +128,7 @@ vosk-model-small-en-us-0.15/
 ## ▶️ Run the Project
 
 ```id="8rqexm"
-python golu.py
+python golu
 ```
 
 ---
