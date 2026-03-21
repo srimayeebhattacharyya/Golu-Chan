@@ -1,0 +1,17 @@
+# Ignore AI models
+models/
+*.gguf
+
+# Ignore Vosk models
+vosk-model*/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
