@@ -1,24 +1,24 @@
-# 🤖 Golu-chan – AI Assistant Robot
+# Golu-chan – AI Assistant Robot
 
 Golu-chan is a Python-based AI assistant robot featuring voice interaction, emotion-driven responses, music playback, and command processing. It runs fully offline and is designed for future deployment on devices like Raspberry Pi, with support for on-device LLMs.
 
-🚧 **Project Status:** Under active development
+**Project Status:** Under active development
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🎤 Voice Recognition (Vosk – offline speech recognition)
-* 🔊 Speech Output (text-to-speech)
-* 😊 Emotion Simulation (expressive UI using pygame)
-* 🎵 Music Playback (via yt-dlp + pygame)
-* 🧠 Command Processing (math, tasks, system actions)
-* 🤖 Local AI Integration (TinyLLaMA GGUF model)
-* 💻 Fully offline (no external API dependency)
+* Voice Recognition (Vosk – offline speech recognition)
+* Speech Output (text-to-speech)
+* Emotion Simulation (expressive UI using pygame)
+* Music Playback (via yt-dlp + pygame)
+* Command Processing (math, tasks, system actions)
+* Local AI Integration (TinyLLaMA GGUF model)
+* Fully offline (no external API dependency)
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 * Python 3.11
 * pygame
@@ -29,7 +29,7 @@ Golu-chan is a Python-based AI assistant robot featuring voice interaction, emot
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```id="g1x4nm"
 golu-chan/
@@ -59,7 +59,7 @@ golu-chan/
 │
 ├── control_panel.py
 ├── emo.py
-├── golu                   # 🚀 Main entry point
+├── golu                   # Main entry point
 ├── main.py                # (secondary/older entry if used)
 ├── requirements.txt
 ├── LICENSE
@@ -68,7 +68,7 @@ golu-chan/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -85,7 +85,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🤖 LLM Model Setup
+## LLM Model Setup
 
 Download the TinyLLaMA GGUF model:
 
@@ -105,7 +105,7 @@ models/
 
 ---
 
-## 🎤 Speech Model Setup (Vosk)
+## Speech Model Setup (Vosk)
 
 Download a Vosk model:
 
@@ -125,7 +125,7 @@ vosk-model-small-en-us-0.15/
 
 ---
 
-## ▶️ Run the Project
+## Run the Project
 
 ```id="8rqexm"
 python golu
@@ -133,7 +133,7 @@ python golu
 
 ---
 
-## 💡 Example Commands
+## Example Commands
 
 * "play song"
 * "what is tan 90"
@@ -143,24 +143,24 @@ python golu
 
 ---
 
-## ⚠️ Known Limitations
+## Known Limitations
 
 * UI/UX for audio and video buttons is currently not functional
 * These features are under development and will be fixed in future updates
 
 ---
 
-## 🧠 Future Improvements
+## Future Improvements
 
-* 🔥 Upgrade speech recognition (Whisper / Whisper.cpp)
-* 🧠 Add memory system (context awareness)
-* 🤖 Improve personality & emotion system
-* 📦 Raspberry Pi deployment optimization
-* 🌐 Optional web dashboard
+* Upgrade speech recognition (Whisper / Whisper.cpp)
+* Add memory system (context awareness)
+* Improve personality & emotion system
+* Raspberry Pi deployment optimization
+* Optional web dashboard
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * Model files are not included due to GitHub size limits
 * Ensure the following exist before running:
@@ -171,13 +171,13 @@ python golu
 
 ---
 
-## 👩‍💻 Authors
+## Authors
 
 **Srimayee Bhattacharyya**
 **Srirup Bhattacharyya**
 
 ---
 
-## ⭐ Show Your Support
+## Show Your Support
 
 If you like this project, consider giving it a ⭐ on GitHub!
